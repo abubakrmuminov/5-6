@@ -9,7 +9,6 @@ export function modal() {
     elModal.style.display = "none";
   });
 
-  // Закрываем модал при клике вне контента
   window.addEventListener("click", (e) => {
     if (e.target === elModal) {
       elModal.style.display = "none";

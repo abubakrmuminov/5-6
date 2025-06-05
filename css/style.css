@@ -127,14 +127,10 @@ body {
   cursor: pointer;
 }
 
-.connector {
-  width: 80px; /* Длина линии, подгони под gap */
-  height: 4px;
-  background-color: black;
-}
+
 
 .modal {
-  display: none; /* скрыт по умолчанию */
+  display: none;
   position: fixed;
   z-index: 1000;
   left: 0;

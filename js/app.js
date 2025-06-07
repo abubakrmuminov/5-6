@@ -5,7 +5,7 @@ import { robotChoose } from "./robot-choose.js";
 import { showHideSection } from "./show-hide.js";
 import { updateScore } from "./update-score.js";
 
-// Новый элемент для результата
+
 const elResultMessage = document.getElementById("resultMessage");
 
 // ===== \\
